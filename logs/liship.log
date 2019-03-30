@@ -1,0 +1,317 @@
+2019-03-30 16:54:01,072 liship       DEBUG    'Logger' object has no attribute 'getLogger'
+2019-03-30 16:55:04,368 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:04,368 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:04,368 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:09,371 liship       DEBUG    
+2019-03-30 16:55:09,371 liship       DEBUG    第 1 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:09,372 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:09,372 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:09,372 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:09,372 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:09,372 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:09,372 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:09,372 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:14,373 liship       DEBUG    
+2019-03-30 16:55:14,373 liship       DEBUG    第 2 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:14,373 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:14,373 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:14,373 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:14,373 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:14,374 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:14,374 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:14,374 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:19,374 liship       DEBUG    
+2019-03-30 16:55:19,374 liship       DEBUG    第 3 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:19,375 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:19,375 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:19,375 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:19,375 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:19,375 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:19,375 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:19,376 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:24,376 liship       DEBUG    
+2019-03-30 16:55:24,376 liship       DEBUG    第 4 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:24,377 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:24,377 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:24,377 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:24,377 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:24,377 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:24,377 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:24,378 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:29,378 liship       DEBUG    
+2019-03-30 16:55:29,378 liship       DEBUG    第 5 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:29,378 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:29,379 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:29,379 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:29,379 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:29,379 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:29,379 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:29,379 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:34,380 liship       DEBUG    
+2019-03-30 16:55:34,380 liship       DEBUG    第 6 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:34,380 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:34,380 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:34,380 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:34,380 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:34,381 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:34,381 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:34,381 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:39,381 liship       DEBUG    
+2019-03-30 16:55:39,381 liship       DEBUG    第 7 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:39,382 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:39,382 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:39,382 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:39,382 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:39,383 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:39,384 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:39,384 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:44,385 liship       DEBUG    
+2019-03-30 16:55:44,385 liship       DEBUG    第 8 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:44,386 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:44,386 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:44,386 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:44,386 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:44,386 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:44,387 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:44,387 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:49,387 liship       DEBUG    
+2019-03-30 16:55:49,387 liship       DEBUG    第 9 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:49,388 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:49,388 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:49,388 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:49,388 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:49,388 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:49,389 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:49,389 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:54,389 liship       DEBUG    
+2019-03-30 16:55:54,389 liship       DEBUG    第 10 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:54,390 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:54,390 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:54,390 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:54,390 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:54,390 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:54,391 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:54,391 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:55:59,391 liship       DEBUG    
+2019-03-30 16:55:59,391 liship       DEBUG    第 11 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:55:59,392 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:55:59,392 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:55:59,392 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:55:59,392 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:55:59,392 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:55:59,393 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:55:59,393 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:56:04,394 liship       DEBUG    
+2019-03-30 16:56:04,394 liship       DEBUG    第 12 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:56:04,394 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:56:04,394 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:56:04,394 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:56:04,394 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:56:04,395 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:56:04,395 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:56:04,396 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:56:09,396 liship       DEBUG    
+2019-03-30 16:56:09,396 liship       DEBUG    第 13 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:56:09,396 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:56:09,396 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:56:09,396 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:56:09,396 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:56:09,397 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'task_type': 2, 'timeout': 0, 'uuid': '0f1b6a0e3fb943ab91dae707de75380a', 'data': {'attrs': ['author']}, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:56:09,397 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:56:09,398 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:57:16,428 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '93d7185074074ecab4c9652c7f5b5627', 'data': {'attrs': ['author']}, 'task_type': 2, 'timeout': 0, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:57:16,428 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:57:16,428 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:57:21,428 liship       DEBUG    
+2019-03-30 16:57:21,428 liship       DEBUG    第 1 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:57:21,429 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:57:21,429 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:57:21,429 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:57:21,429 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:57:21,430 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '93d7185074074ecab4c9652c7f5b5627', 'data': {'attrs': ['author']}, 'task_type': 2, 'timeout': 0, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:57:21,430 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:57:21,430 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 16:57:26,430 liship       DEBUG    
+2019-03-30 16:57:26,430 liship       DEBUG    第 2 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 16:57:26,431 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 16:57:26,431 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 16:57:26,431 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 16:57:26,431 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 16:57:26,431 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '93d7185074074ecab4c9652c7f5b5627', 'data': {'attrs': ['author']}, 'task_type': 2, 'timeout': 0, 'udid': None, 'app_name': 'LiShiP'}
+2019-03-30 16:57:26,431 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 16:57:26,431 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:12:37,535 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'timeout': 0, 'udid': None, 'uuid': '7c8907b4c775454f832cba829a7c4cc6', 'task_type': 2, 'data': {'attrs': ['author']}, 'app_name': 'LiShiP'}
+2019-03-30 17:12:37,536 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:12:37,536 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:12:42,536 liship       DEBUG    
+2019-03-30 17:12:42,536 liship       DEBUG    第 1 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object has no attribute 'init_app'
+2019-03-30 17:12:42,537 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 17:12:42,537 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 17:12:42,537 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 17:12:42,537 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 17:12:42,537 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'timeout': 0, 'udid': None, 'uuid': '7c8907b4c775454f832cba829a7c4cc6', 'task_type': 2, 'data': {'attrs': ['author']}, 'app_name': 'LiShiP'}
+2019-03-30 17:12:42,538 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:12:42,538 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:37:21,403 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '064fe0f1a97a4f4cad026a4af27ee4f9', 'task_type': 2, 'timeout': 0, 'app_name': 'LiShiP', 'data': {'attrs': ['author']}, 'udid': None}
+2019-03-30 17:37:32,833 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:38:00,834 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:38:10,065 liship       DEBUG    
+2019-03-30 17:38:10,065 liship       DEBUG    第 1 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object is not subscriptable
+2019-03-30 17:38:10,066 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 17:38:10,066 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 17:38:10,066 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 17:38:10,066 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 17:38:10,066 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '064fe0f1a97a4f4cad026a4af27ee4f9', 'task_type': 2, 'timeout': 0, 'app_name': 'LiShiP', 'data': {'attrs': ['author']}, 'udid': None}
+2019-03-30 17:38:18,964 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:38:46,965 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:38:56,516 liship       DEBUG    
+2019-03-30 17:38:56,516 liship       DEBUG    第 2 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object is not subscriptable
+2019-03-30 17:38:56,516 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 17:38:56,516 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 17:38:56,516 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 17:38:56,517 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 17:38:56,517 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '064fe0f1a97a4f4cad026a4af27ee4f9', 'task_type': 2, 'timeout': 0, 'app_name': 'LiShiP', 'data': {'attrs': ['author']}, 'udid': None}
+2019-03-30 17:39:05,557 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:39:33,558 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:39:42,795 liship       DEBUG    
+2019-03-30 17:39:42,795 liship       DEBUG    第 3 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object is not subscriptable
+2019-03-30 17:39:42,795 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 17:39:42,795 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 17:39:42,795 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 17:39:42,796 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 17:39:42,796 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '064fe0f1a97a4f4cad026a4af27ee4f9', 'task_type': 2, 'timeout': 0, 'app_name': 'LiShiP', 'data': {'attrs': ['author']}, 'udid': None}
+2019-03-30 17:39:51,866 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:40:19,867 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:40:29,445 liship       DEBUG    
+2019-03-30 17:40:29,445 liship       DEBUG    第 4 次重试. [msg]:[127.0.0.1:62025]: 未预见的异常，需要处理，'NoneType' object is not subscriptable
+2019-03-30 17:40:29,446 liship       DEBUG    Traceback (most recent call last):
+
+2019-03-30 17:40:29,446 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\utils\__init__.py", line 22, in retryed
+    return func(*args, times=i, **kwargs)
+
+2019-03-30 17:40:29,446 liship       DEBUG      File "C:\Users\china\PycharmProjects\liship\liship\devicemanager.py", line 149, in do
+    raise LiShiPUnknownException(msg="[%s]: 未预见的异常，需要处理，%s" % (thread_name, e))
+
+2019-03-30 17:40:29,446 liship       DEBUG    liship.utils.exception.LiShiPUnknownException
+
+2019-03-30 17:40:29,446 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'uuid': '064fe0f1a97a4f4cad026a4af27ee4f9', 'task_type': 2, 'timeout': 0, 'app_name': 'LiShiP', 'data': {'attrs': ['author']}, 'udid': None}
+2019-03-30 17:40:38,264 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:41:06,265 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:41:15,719 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]正在执行 command: {'timeout': 0, 'data': {'attrs': ['author']}, 'udid': None, 'task_type': 2, 'app_name': 'liship', 'uuid': 'a387effc382c451190172b8bc87ccc6a'}
+2019-03-30 17:41:24,570 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]:成功打开app，马上执行命令
+2019-03-30 17:56:07,586 liship.127.0.0.1:62025 DEBUG    [127.0.0.1:62025]: 未预见的异常，需要处理
+2019-03-30 17:56:16,586 liship       DEBUG    HTTPConnectionPool(host='192.168.0.108', port=4723): Max retries exceeded with url: /wd/hub/session/fa53b4e0-c838-4f99-abb1-a1f97882cc91 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000497ADA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
